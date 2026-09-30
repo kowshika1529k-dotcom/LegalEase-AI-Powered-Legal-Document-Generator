@@ -1,51 +1,25 @@
-# Phase 5 – Project Development Phase
+# Phase 5 – Project Development
 
-## Project Title
+## Project
 LegalEase – AI-Powered Legal Document Generator
 
-## Development Overview
-The LegalEase project is developed as an AI-powered application for generating structured legal documents from user-provided information.
+## Development
+The project was developed using Python, FastAPI and Streamlit. The system accepts document type, party details, effective date and key terms, then generates a structured legal document.
 
-## Development Modules
+## Main Components
+- FastAPI backend
+- Streamlit frontend
+- Document generation module
+- Document formatting utilities
+- TXT download support
 
-### 1. User Interface
-- Provides a simple interface for users.
-- Collects the required information.
+## Supported Documents
+- Employment Contract
+- Lease Agreement
+- Non-Disclosure Agreement
 
-### 2. Input Processing
-- Accepts user and case details.
-- Checks the required input information.
+## Phase 5 Output
+The application provides a user interface for entering legal-document information, generates a structured preview, and allows the generated text to be downloaded as a TXT file.
 
-### 3. AI Processing
-- Uses AI/Generative AI to process the input.
-- Generates suitable legal document content.
-
-### 4. Document Generation
-- Creates the final structured legal document.
-- Displays the generated document to the user.
-
-### 5. Download / Save
-- Allows the generated document to be saved or downloaded.
-
-## Technologies
-- Python
-- AI/ML
-- Generative AI
-- HTML
-- CSS
-- GitHub
-
-## Development Flow
-
-User Input
-↓
-Input Processing
-↓
-AI Processing
-↓
-Legal Document Generation
-↓
-View / Save Document
-
-## Expected Result
-The developed system should generate a clear and structured legal document based on the information provided by the user.
+## Security Note
+API keys and secret credentials must not be uploaded to GitHub.
