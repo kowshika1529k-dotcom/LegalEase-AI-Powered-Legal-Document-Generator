@@ -1,11 +1,8 @@
-from fastapi import FastAPI
-from routes import router
+import streamlit as st
 
-app = FastAPI(title="LegalEase",
-              description="AI-Powered Legal Document Generator")
+st.set_page_config(page_title="LegalEase")
 
-app.include_router(router)
+st.title("LegalEase")
+st.write("AI-Powered Legal Document Generator")
 
-@app.get("/")
-def home():
-    return {"message": "Welcome to LegalEase"}
+st.success("Application is running successfully!")
